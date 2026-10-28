@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: its1ssl-tls
+  namespace: kube-system
+spec:
+  secretName: its1ssl-tls
+  dnsNames:
+    - its1ssl.example.com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer

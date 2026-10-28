@@ -1,0 +1,13 @@
+# Aldrig in i repot
+kubeconfig*
+*.kubeconfig
+k3s.yaml
+*.pem
+*.key
+*.crt
+id_*
+*.tar.gz
+*.tgz
+etc-backup*
+*.env
+.env*
